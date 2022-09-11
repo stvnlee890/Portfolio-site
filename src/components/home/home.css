@@ -1,0 +1,27 @@
+#name {
+  text-align: center;
+  font-size: 50px;
+  color: #3b3b3b;
+  margin-top: 10%;
+}
+#name-tag {
+  margin-top: 20px;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1.2s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
