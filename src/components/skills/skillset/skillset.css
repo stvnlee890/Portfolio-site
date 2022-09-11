@@ -1,0 +1,24 @@
+#skill-sets{
+  list-style: none;
+  padding-top: 30px;
+}
+.skill-num {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 600;
+  color: #3b3b3b;
+  grid-column-start: 1;
+  cursor: pointer;
+}
+.skill-titles {
+  color: #3b3b3b;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.skill-set-li {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}

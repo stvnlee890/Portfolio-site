@@ -3,6 +3,7 @@
 nav-bar-container {
   font-family: 'IBM Plex Mono', monospace;
 }
+
 .nav-bar {
   list-style: none;
   padding-top: 30px;
@@ -17,6 +18,8 @@ nav-bar-container {
   justify-content: space-around;
 }
 .nav-titles {
+  text-decoration: none;
+  color: #3b3b3b;
   cursor: pointer;
 }
 

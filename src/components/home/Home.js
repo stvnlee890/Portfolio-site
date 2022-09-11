@@ -6,7 +6,7 @@ export const Home = () => {
 
   return (
     <div id='name'>
-      <h1 className="name-tag active reveal fade-bottom">SEUNG KI LEE</h1>
+      <h1 className="title-tag active reveal fade-bottom">SEUNG KI LEE</h1>
     </div>
   )
 }
