@@ -1,0 +1,41 @@
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.social-media {
+  height: 30px;
+}
+a {
+  text-decoration: none;
+}
+.footer-titles {
+  text-decoration: none;
+  color: #3b3b3b;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.footer-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.footer-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #3b3b3b;
+  transform-origin: bottom right;
+  transition: transform .2s ease-out;
+}
+
+.footer-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

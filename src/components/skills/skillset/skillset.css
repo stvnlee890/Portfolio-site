@@ -11,7 +11,7 @@
   margin-top: auto;
 }
 .skill-titles {
-  color: #3b3b3b;
+  color: #4a4a4a;
   cursor: pointer;
   font-weight: 600;
   font-size: 30px;
@@ -21,7 +21,7 @@
 .skill-set-li {
   padding-top: 20px;
   display: grid;
-  grid-template-columns: 2fr 1fr
+  grid-template-columns: 3.5fr 1fr
 }
 .icons {
   height: 50px;
