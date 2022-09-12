@@ -16,7 +16,6 @@ export const Navbar = () => {
         <li>
           <span className="nav-nums">002.</span>
           <NavLink className='nav-titles work hover-underline-animation' to={'/works'}>Works</NavLink>
-          {/* <span className="nav-titles work animate">Works</span> */}
         </li>
         <li>
           <span className="nav-nums">003.</span>

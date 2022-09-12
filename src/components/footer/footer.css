@@ -17,12 +17,12 @@ a {
   font-weight: 600;
 }
 
-.footer-underline-animation {
+.hover-underline-animation {
   display: inline-block;
   position: relative;
 }
 
-.footer-underline-animation:after {
+.hover-underline-animation:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -35,7 +35,7 @@ a {
   transition: transform .2s ease-out;
 }
 
-.footer-underline-animation:hover:after {
+.hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

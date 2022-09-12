@@ -19,6 +19,7 @@ function App() {
         <Route path='/works' element={<Works />} />
         <Route path='/about' element={<About />} />
       </Routes>
+      
       <Footer />
     </div>
   );
