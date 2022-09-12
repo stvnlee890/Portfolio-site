@@ -1,0 +1,22 @@
+#final-project-img {
+  width: 400px;
+  height: 570px;
+}
+#works-display-container {
+  transition-delay: 2s
+}
+#final-project-img {
+  animation: scale 800ms ease forwards;
+  animation-delay: .6s;
+  visibility: hidden;
+}
+@keyframes scale {
+  0% {
+    height: 0px; 
+    visibility: visible;
+  }
+  100% {
+    height: 570px;
+    visibility: visible;
+  }
+}
