@@ -11,11 +11,13 @@
   background-color: rgba(0,0,0,0.4);
   /* background-color: rgba(44, 134, 148, 1); */
   animation: fade-bottom .4s ease-in;
+  display: grid;
+  grid-template-rows: .5fr 1fr;
 }
 
 .modal-container {
-  width:600px;
-  height: 900px;
+  width: 770px;
+  height: 950px;
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -32,9 +34,8 @@
   border: none;
   font-size: 25px;
   cursor: pointer;
-  display: flex;
-  justify-content: flex-start;
-
+  text-align: left;
+  margin-top: auto;
 }
 
 
@@ -50,7 +51,7 @@
 }
 #img {
   text-align: center;
-  height: 800px;
+  height: 945px;
   animation: fade-bottom .5s ease-in;
 }
 
