@@ -1,0 +1,56 @@
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(0,0,0,0.4); */
+  background-color: rgba(44, 134, 148, 1);
+  animation: fade-bottom .4s ease-in;
+}
+
+.modal-container {
+  width: 700px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  
+}
+
+.close-button {
+  background-color: transparent;
+  /* color: #2c8694; */
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.modal-container .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+#img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  animation: fade-bottom .5s ease-in;
+}
+
+
+@keyframes fade-bottom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

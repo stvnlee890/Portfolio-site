@@ -12,12 +12,12 @@
   grid-gap: 20px;
   flex-wrap: wrap;
 }
-.final-project-img {
+/* .final-project-img {
   animation: scale 800ms ease forwards;
   animation-delay: .6s;
   visibility: hidden;
   cursor: pointer;
-}
+} */
 
 .works-num {
   font-weight: 600;
@@ -43,7 +43,7 @@
   width: 340px;
   height: 470px;
   animation: scale 800ms ease forwards;
-  animation-delay: .6s;
+  animation-delay: .5s;
   visibility: hidden;
   cursor: pointer;
 }
@@ -51,6 +51,7 @@
   content:'';
   background: url('../../../assets/images/discography.png');
   background-size: 340px;
+  animation: scale 800ms ease forwards;
   height: 470px;
   display:block;
 }
@@ -59,7 +60,7 @@
   width: 340px;
   height: 470px;
   animation: scale 800ms ease forwards;
-  animation-delay: .6s;
+  animation-delay: 1.2s;
   visibility: hidden;
   cursor: pointer;
 }
@@ -67,6 +68,7 @@
   content:'';
   background: url('../../../assets/images/shopkeep.png');
   background-size: 340px;
+  animation: scale 800ms ease forwards;
   height: 470px;
   display:block;
 }

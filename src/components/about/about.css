@@ -10,6 +10,7 @@
 }
 
 #about-text {
+  margin-top: auto;
   color: #3b3b3b;
   cursor: pointer;
   font-weight: 600;

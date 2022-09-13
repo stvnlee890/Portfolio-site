@@ -23,7 +23,7 @@ export const Navbar = () => {
         </li>
         <li>
           <span className="nav-nums">004.</span>
-          <span className="nav-titles resume hover-underline-animation">Resume</span>
+          <NavLink className='nav-titles experience hover-underline-animation' to={'/resume'}>Resume</NavLink>
         </li>
       </ul>
     </div>
