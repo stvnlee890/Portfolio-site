@@ -1,14 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,400&family=Poppins:wght@500&display=swap');
+
 #final-project-img {
-  width: 400px;
-  height: 570px;
+  width: 340px;
+  height: 370px;
 }
 #works-display-container {
-  transition-delay: 2s
+  transition-delay: 2s;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+  flex-wrap: wrap;
 }
 #final-project-img {
   animation: scale 800ms ease forwards;
   animation-delay: .6s;
   visibility: hidden;
+}
+
+.works-num {
+  font-weight: 600;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.works {
+  display: grid;
+  grid-template-rows: .05fr 1fr;
+  height: 500px;
+}
+.works-title {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: .2fr 1fr;
 }
 @keyframes scale {
   0% {
@@ -16,7 +41,7 @@
     visibility: visible;
   }
   100% {
-    height: 570px;
+    height: 470px;
     visibility: visible;
   }
 }
