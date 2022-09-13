@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,600;1,400&family=Poppins:wght@500&display=swap');
 
-#final-project-img {
+
+.final-project-img {
   width: 340px;
   height: 370px;
 }
@@ -11,17 +12,17 @@
   grid-gap: 20px;
   flex-wrap: wrap;
 }
-#final-project-img {
+.final-project-img {
   animation: scale 800ms ease forwards;
   animation-delay: .6s;
   visibility: hidden;
+  cursor: pointer;
 }
 
 .works-num {
   font-weight: 600;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 12px;
-  margin-right: 10px;
 }
 .works {
   display: grid;
@@ -30,15 +31,49 @@
 }
 .works-title {
   font-size: 14px;
+  font-weight: bold;
   text-align: left;
   margin-bottom: auto;
   display: grid;
-  grid-template-columns: .2fr 1fr;
+  grid-template-columns: .1fr 1fr;
 }
+
+.discog {
+  background-color: #2c6294;
+  width: 340px;
+  height: 470px;
+  animation: scale 800ms ease forwards;
+  animation-delay: .6s;
+  visibility: hidden;
+  cursor: pointer;
+}
+.discog:hover:after {
+  content:'';
+  background: url('../../../assets/images/discography.png');
+  background-size: 340px;
+  height: 470px;
+  display:block;
+}
+.shopkeep {
+  background-color:#8f2c94;
+  width: 340px;
+  height: 470px;
+  animation: scale 800ms ease forwards;
+  animation-delay: .6s;
+  visibility: hidden;
+  cursor: pointer;
+}
+.shopkeep:hover:after {
+  content:'';
+  background: url('../../../assets/images/shopkeep.png');
+  background-size: 340px;
+  height: 470px;
+  display:block;
+}
+
 @keyframes scale {
   0% {
     height: 0px; 
-    visibility: visible;
   }
   100% {
     height: 470px;
