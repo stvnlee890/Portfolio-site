@@ -1,12 +1,13 @@
 #about-content-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 #about {
   text-align: center;
   font-size: 30px;
   color: #3b3b3b;
   margin-top: 10%;
+ 
 }
 
 #about-text {
@@ -14,11 +15,24 @@
   color: #3b3b3b;
   cursor: pointer;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
   text-align: center;
+  animation: fade .5s ease-in;
+
 }
 
 #about-intro-container {
-  max-width: 50%;
+  max-width: 60%;
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -6,13 +6,13 @@ export const Navbar = () => {
     <div className="nav-bar-container">
       <ul className="nav-bar">
         <li>
-          <span className="nav-nums">000.</span>
+          <span className="nav-nums">001.</span>
           <NavLink className="nav-titles about hover-underline-animation" to={'/'}>Home</NavLink>
         </li>
-        <li>
+        {/* <li>
           <span className="nav-nums">001.</span>
           <NavLink className='nav-titles about hover-underline-animation' to={'/about'}>About</NavLink>
-        </li>
+        </li> */}
         <li>
           <span className="nav-nums">002.</span>
           <NavLink className='nav-titles work hover-underline-animation' to={'/works'}>Works</NavLink>

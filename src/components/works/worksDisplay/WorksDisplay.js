@@ -1,5 +1,3 @@
-import  Shopkeep from '../../../assets/images/shopkeep.png'
-import Discography from '../../../assets/images/discography.png'
 import './worksDisplay.css'
 
 export const WorksDisplay = () => {

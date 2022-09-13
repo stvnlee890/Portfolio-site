@@ -4,11 +4,12 @@ import './profileImage.css'
 export const ProfileImage = () => {
   return (
     <div id='profile-image-container'>
-      <img 
+      {/* <img 
         className='profile-image'
         src={Profile} 
         alt='profile picture'
-      />
+      /> */}
+      <div className='profile-image'></div>
     </div>
   )
 }
