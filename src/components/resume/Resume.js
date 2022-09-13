@@ -14,6 +14,9 @@ export const Resume = () => {
     <div id='resume'>
       <h1 className='title-tag active reveal fade-bottom'>Resume</h1>
       <div className='resume-page-container'>
+        <div className='resume-title'>
+          <span className='resume-title fade-bottom'>Click to view resume</span>
+        </div>
         <ResumePage handleClick={handleClick}/>
       </div>
       {openModal && <Modal closeModal={setOpenModal} />}

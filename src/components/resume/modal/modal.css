@@ -8,8 +8,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: rgba(0,0,0,0.4); */
-  background-color: rgba(44, 134, 148, 1);
+  background-color: rgba(0,0,0,0.4);
+  /* background-color: rgba(44, 134, 148, 1); */
   animation: fade-bottom .4s ease-in;
 }
 
@@ -19,7 +19,8 @@
   display: flex;
   flex-direction: column;
   padding: 25px;
-  
+  overflow-y: scroll;
+
 }
 
 .close-button {
@@ -30,7 +31,9 @@
   cursor: pointer;
   display: flex;
   justify-content: flex-start;
+
 }
+
 
 .modal-container .body {
   flex: 50%;
@@ -39,6 +42,8 @@
   align-items: center;
   font-size: 1.7rem;
   text-align: center;
+  padding-bottom: 10px;
+
 }
 #img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

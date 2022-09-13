@@ -17,4 +17,14 @@
   visibility: hidden;
   cursor: pointer;
 }
-
+.resume-page-container {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: .1fr
+}
+.resume-title {
+  text-align: center;
+}
