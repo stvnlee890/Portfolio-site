@@ -12,12 +12,6 @@
   grid-gap: 20px;
   flex-wrap: wrap;
 }
-/* .final-project-img {
-  animation: scale 800ms ease forwards;
-  animation-delay: .6s;
-  visibility: hidden;
-  cursor: pointer;
-} */
 
 .works-num {
   font-weight: 600;

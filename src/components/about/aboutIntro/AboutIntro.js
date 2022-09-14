@@ -1,5 +1,4 @@
-import '../about.css'
-
+import './about.css'
 export const AboutIntro = () => {
 
   return (

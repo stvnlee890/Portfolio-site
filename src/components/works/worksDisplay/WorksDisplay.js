@@ -9,8 +9,8 @@ export const WorksDisplay = () => {
           <span className='work-title fade-bottom'>DISCOGRAPHY</span>
         </div>
           <a href='https://music-discography.netlify.app/'>
-        <div className='discog'></div>
-        </a>
+            <div className='discog'></div>
+          </a>
       </div>
       <div className='works'>
         <div className='works-title'>
@@ -18,8 +18,8 @@ export const WorksDisplay = () => {
           <span className='work-title fade-bottom'>SHOPKEEP</span>
         </div>
           <a href='https://shopkepp.netlify.app/'>
-          <div className='shopkeep'></div>
-        </a>
+            <div className='shopkeep'></div>
+          </a>
       </div>
     </div>
   )
