@@ -62,3 +62,15 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 600px) {
+  .skill-titles {
+    font-size: 20px;
+  }
+  .skill-num {
+    font-size: 14px;;
+  }
+  #skill-sets {
+    margin-right: 30px;
+  }
+}

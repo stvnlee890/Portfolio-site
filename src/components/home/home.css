@@ -21,3 +21,8 @@
   }
 }
 
+@media (max-width: 830px) {
+  #name {
+    font-size: 40px;
+  }
+}

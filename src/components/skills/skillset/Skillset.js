@@ -1,16 +1,4 @@
 import './skillset.css'
-import {
-  faJs,
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-  faPython,
-} from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 
 export const Skillset = () => {
 

@@ -83,3 +83,9 @@
     visibility: visible;
   }
 }
+
+@media (max-width: 600px) {
+  .works-title {
+    font-size: 13px;
+  }
+}
