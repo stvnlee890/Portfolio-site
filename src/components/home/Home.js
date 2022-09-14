@@ -8,7 +8,7 @@ export const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setShowComponent(!showComponent)
-    },800)
+    },600)
   }, [])
   
   return (
