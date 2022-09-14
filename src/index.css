@@ -2,11 +2,7 @@ html {
   font-family: helvetica;
   background-color: #f7f4ed;
 }
-@media (max-width: 830px) {
-  #name {
-    font-size: 30px;
-  }
-}
+
 
 @media (max-width: 600px) {
   .title-tag {
